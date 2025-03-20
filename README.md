@@ -15,12 +15,12 @@
 
 
 # Paths to directorys
-pathToEnv = os.path.expanduser("~/.find_env")  # Automatically find your env file.
-load_dotenv(pathToEnv)
+- pathToEnv = os.path.expanduser("~/.find_env")  # Automatically find your env file.
+- load_dotenv(pathToEnv)
 
-path_to_website_dir = os.getenv("PATHTOMAIN")
-path_to_build_dir = os.getenv("PATHTOBUILD")
-path_to_hostinger_public_dir = os.getenv("PATHTOHOSTINGERPUBLIC")
-path_to_git_dir = os.getenv("GITDIRECTORY")
+- path_to_website_dir = os.getenv("PATHTOMAIN")
+- path_to_build_dir = os.getenv("PATHTOBUILD")
+- path_to_hostinger_public_dir = os.getenv("PATHTOHOSTINGERPUBLIC")
+- path_to_git_dir = os.getenv("GITDIRECTORY")
 
 - If you dont know how to do that ill give a little tutorial on how. I can make a feature later so you can just make them automatically. - Can edit out some of the listing commands if you want. I had them there to see if commands were working code works or not. 
